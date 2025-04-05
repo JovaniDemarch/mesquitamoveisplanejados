@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>De Móveis Planejados</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fff;
+      color: #333;
+    }
+    header {
+      background-color: #b30000;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      color: white;
+      margin-left: 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('https://source.unsplash.com/1600x600/?interior,wood') center/cover no-repeat;
+      height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.8);
+    }
+    .hero h1 {
+      font-size: 3rem;
+    }
+    .section {
+      padding: 4rem 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1rem;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .btn-whatsapp {
+      background-color: #25D366;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 5px;
+      font-size: 1.2rem;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 2rem;
+    }
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h2>De Móveis Planejados</h2>
+    <nav>
+      <a href="#sobre">Sobre</a>
+      <a href="#galeria">Projetos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Transformamos MDF em projetos únicos</h1>
+  </section>
+
+  <section class="section" id="sobre">
+    <h2>Sobre a Marcenaria</h2>
+    <p>Especializados em móveis sob medida de alto padrão em MDF, entregamos qualidade, sofisticação e funcionalidade para ambientes residenciais e comerciais. Atuamos com excelência em cada detalhe.</p>
+  </section>
+
+  <section class="section" id="galeria">
+    <h2>Projetos Recentes</h2>
+    <div class="gallery">
+      <img src="https://source.unsplash.com/600x400/?kitchen,wood" alt="Projeto 1">
+      <img src="https://source.unsplash.com/600x400/?closet,interior" alt="Projeto 2">
+      <img src="https://source.unsplash.com/600x400/?furniture,design" alt="Projeto 3">
+    </div>
+  </section>
+
+  <section class="section" id="contato">
+    <h2>Fale Conosco</h2>
+    <p>Entre em contato pelo WhatsApp e solicite seu orçamento sem compromisso!</p>
+    <a class="btn-whatsapp" href="https://wa.me/5599999999999" target="_blank">Chamar no WhatsApp</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 De Móveis Planejados | Desenvolvido por Jovani Demarch</p>
+  </footer>
+</body>
+</html>
